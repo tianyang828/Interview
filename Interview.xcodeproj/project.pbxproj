@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66A4A011233A255600C46891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A010233A255600C46891 /* main.m */; };
+		66A4A019233CB17300C46891 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A018233CB17300C46891 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		66A4A00D233A255600C46891 /* Interview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interview; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A4A010233A255600C46891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66A4A017233CB17300C46891 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		66A4A018233CB17300C46891 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				66A4A010233A255600C46891 /* main.m */,
+				66A4A017233CB17300C46891 /* Person.h */,
+				66A4A018233CB17300C46891 /* Person.m */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -88,7 +93,7 @@
 		66A4A005233A255600C46891 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "田洋";
 				TargetAttributes = {
 					66A4A00C233A255600C46891 = {
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A4A019233CB17300C46891 /* Person.m in Sources */,
 				66A4A011233A255600C46891 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +244,7 @@
 		66A4A015233A255600C46891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S84FP8YM4R;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -248,6 +255,7 @@
 		66A4A016233A255600C46891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S84FP8YM4R;
 				ENABLE_HARDENED_RUNTIME = YES;
